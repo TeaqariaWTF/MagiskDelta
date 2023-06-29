@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Magisk is a suite of open source software for customizing Android, supporting devices higher than Android 5.0.<br>
+Magisk Delta is a suite of open source software for customizing Android, supporting devices higher than Android 6.0.<br>
 Some highlight features:
 
 - **MagiskSU**: Provide root access for applications
@@ -25,6 +25,8 @@ Some highlight features:
 - [Magisk Documentation](https://topjohnwu.github.io/Magisk/)
 
 ## Bug Reports
+
+#### PLEASE ONLY REPORT ISSUE IN OFFICIAL MAGISK DELTA REPOSITORY!
 
 **Only bug reports from Debug builds will be accepted.**
 
