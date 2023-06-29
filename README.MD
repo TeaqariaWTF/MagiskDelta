@@ -16,6 +16,10 @@ Some highlight features:
 - **Zygisk**: Run code in every Android applications' processes
 - **MagiskHide**: Hide Magisk from various form of detection
 - **SuList**: Magisk only visible to be included on the sulist 
+- **Core-only mode**: Only core features such as MagiskSU (root access) and MagiskHide are available and no modules will load modules will load in Core-only mode.
+- **Bootloop Protection**: Reboot to core-only mode if zygote process failed to start for many times
+- **Monet theme**: Android 12+ dynamic material you theme in Magisk Delta app
+
 
 ## Downloads
 
