@@ -17,7 +17,7 @@ Some highlight features:
 
 ## Downloads
 
-[Github](https://github.com/topjohnwu/Magisk/) is the only source where you can get official Magisk information and downloads.
+[Github](https://github.com/cuynu/MagiskDelta/releases)
 
 [![](https://img.shields.io/badge/Magisk-v25.2-blue)](https://github.com/topjohnwu/Magisk/releases/tag/v25.2)
 [![](https://img.shields.io/badge/Magisk%20Beta-v25.2-blue)](https://github.com/topjohnwu/Magisk/releases/tag/v25.2)
@@ -26,7 +26,7 @@ Some highlight features:
 
 ## Useful Links
 
-- [Installation Instruction](https://topjohnwu.github.io/Magisk/install.html)
+- [Installation Instruction](https://topjohnwu.github.io/topjohnwu/install.html)
 - [Magisk Documentation](https://topjohnwu.github.io/Magisk/)
 
 ## Bug Reports
@@ -40,7 +40,7 @@ For Magisk app crashes, record and upload the logcat when the crash occurs.
 ## Building and Development
 
 - Magisk builds on any OS Android Studio supports. Install Android Studio and do the initial setups.
-- Clone sources: `git clone --recurse-submodules https://github.com/topjohnwu/Magisk.git`
+- Clone sources: `git clone --recurse-submodules https://github.com/cuynu/MagiskDelta.git`
 - Install Python 3.8+ \
   (Windows only: select **'Add Python to PATH'** in installer, and run `pip install colorama` after install)
 - Configure to use the JDK bundled in Android Studio:
