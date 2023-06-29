@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Magisk Delta is a suite of open source software for customizing Android, supporting devices higher than Android 6.0.<br>
+Magisk Delta is a suite of open source software for customizing and rooting Android like official Magisk, created by HuskyDG (Nguyen Hoang The Vi) in VietNam, supporting devices higher than Android 6.0.<br>
 Some highlight features:
 
 - **MagiskSU**: Provide root access for applications
