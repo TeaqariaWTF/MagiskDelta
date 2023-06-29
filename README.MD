@@ -14,6 +14,8 @@ Some highlight features:
 - **Magisk Modules**: Modify read-only partitions by installing modules
 - **MagiskBoot**: The most complete tool for unpacking and repacking Android boot images
 - **Zygisk**: Run code in every Android applications' processes
+- **MagiskHide**: Hide Magisk from various form of detection
+- **SuList**: Magisk only visible to be included on the sulist 
 
 ## Downloads
 
@@ -31,12 +33,12 @@ Some highlight features:
 **Only bug reports from Debug builds will be accepted.**
 
 For installation issues, upload both boot image and install logs.<br>
-For Magisk issues, upload boot logcat or dmesg.<br>
-For Magisk app crashes, record and upload the logcat when the crash occurs.
+For Magisk Delta issues, upload boot logcat or dmesg.<br>
+For Magisk Delta app crashes, record and upload the logcat when the crash occurs.
 
 ## Building and Development
 
-- Magisk builds on any OS Android Studio supports. Install Android Studio and do the initial setups.
+- Magisk Delta builds on any OS Android Studio supports. Install Android Studio and do the initial setups.
 - Clone sources: `git clone --recurse-submodules https://github.com/cuynu/MagiskDelta.git`
 - Install Python 3.8+ \
   (Windows only: select **'Add Python to PATH'** in installer, and run `pip install colorama` after install)
@@ -53,9 +55,9 @@ For Magisk app crashes, record and upload the logcat when the crash occurs.
 
 ## Signing and Distribution
 
-- The certificate of the key used to sign the final Magisk APK product is also directly embedded into some executables. In release builds, Magisk's root daemon will enforce this certificate check and reject and forcefully uninstall any non-matching Magisk apps to protect users from malicious and unverified Magisk APKs.
-- To do any development on Magisk itself, switch to an **official debug build and reinstall Magisk** to bypass the signature check.
-- To distribute your own Magisk builds signed with your own keys, set your signing configs in `config.prop`.
+- The certificate of the key used to sign the final Magisk Delta APK product is also directly embedded into some executables. In release builds, Magisk's root daemon will enforce this certificate check and reject and forcefully uninstall any non-matching Magisk Delta apps to protect users from malicious and unverified Magisk Delta APKs.
+- To do any development on Magisk Delta itself, switch to an **official debug build and reinstall Magisk Delta** to bypass the signature check.
+- To distribute your own Magisk Delta builds signed with your own keys, set your signing configs in `config.prop`.
 - Check [Google's Documentation](https://developer.android.com/studio/publish/app-signing.html#generate-key) for more details on generating your own key.
 
 ## Translation Contributions
@@ -69,7 +71,7 @@ Translate each and place them in the respective locations (`[module]/src/main/re
 
 ## License
 
-    Magisk, including all git submodules are free software:
+    Magisk Delta, including all git submodules are free software:
     you can redistribute it and/or modify it under the terms of the
     GNU General Public License as published by the Free Software Foundation,
     either version 3 of the License, or (at your option) any later version.
